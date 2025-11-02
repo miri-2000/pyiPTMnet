@@ -3,7 +3,7 @@ import requests
 import csv
 from io import StringIO
 import pandas
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 import urllib3
 from pyiptmnet.enums import API_VERSION
 
